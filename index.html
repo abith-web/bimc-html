@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>BMI CALC</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+
+        <section id="heading">
+            <div class="head">
+                <img src="./512x512bb.jpg" alt="logo bmi" height="100px">
+        <h1>BMI CALCULATOR</h1>
+        </div>
+        </section>
+
+        <section id="explanation">
+            <div class="steps">
+                <p></p>
+            <h2>What is BMI?</h2>
+            <p>Body Mass Index (BMI) is widely used as an indicator of body fat content. Your weight alone is not sufficient to establish if you are in a healthy weight range. <br>For example, a tall but slender person can weigh more than a short but plump individual. But the former may enjoy better health as long as <br>their weight is suitable for their height. </p> 
+
+            <h2>How to calculate BMI ?</h2>
+            <p>If you want to calculate your BMI, you have to find out your weight and height first. Once you know these values, you can arrive at the result by following the two steps mentioned below:</P>
+            <ul>
+                <li>Multiply your height by itself (height X height).
+                </li>
+                <li>Divide your weight by the answer you get in the first step.</li>
+            </ul>
+        </div>
+       </section>
+
+       <section id="calculate">
+        <div class="check">
+       <h2 class="move">Check your BMI</h2>
+       <h4 class="mo">your  age : <input type="number" class="age"> (in years)</h4>
+       <h4>your weight : <input type="number" id="weight"> (in kg) </h4>
+       <h4>your height : <input type="number" > (in metre)</h4>
+       <button type="button" onclick="bmical()">Check BMI</button>
+       <h4>Your BMI is : <input type="number" ></h4>
+       <p class="result"></p>
+       <img  class="res" src="./Screenshot 2023-10-08 105808.png" alt="bmi scale"  height="40px"/>
+        </div>
+       </section>
+
+       <section>
+
+       
+        <div class="info">
+            <h2>BMI Charts</h2>
+            <img class="img1" src="./female-bmi-chart.jpg" alt="BMI chart" height="200px">
+            <img  class="img2" src="./body-mass-index-bmi-chart.jpg" alt="bmi chart" height="200px">
+        </div>
+
+       </section>
+
+
+       <footer>
+        <p class="foot">&copy 2023 Bim,Abith.in</p>
+       </footer>
+      <script src="script.js" charset="UTF-8"></script>
+    </body>
+</html>
